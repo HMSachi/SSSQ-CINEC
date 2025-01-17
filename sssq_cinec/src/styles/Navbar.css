@@ -10,7 +10,7 @@
          background-color: rgb(216, 232, 255);
          color: rgb(23, 53, 99);
          font-family: Arial, sans-serif;
-         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+         /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
        }
        
        .navbar-row {
@@ -23,25 +23,40 @@
        }
        
        .top-row {
-         border-bottom: 1px solid #ffffff;
+         border-bottom: 1px solid  rgb(216, 232, 255);
        }
        
-       
-       
-       .navbar-links a,
-       .navbar-menu a {
+      
+
+       .navbar-links a
+       {
          color: rgb(23, 53, 99);
          text-decoration: none;
-         margin: 0 10px;
+         margin: 0 20px;
          padding: 5px 10px;
          transition: background-color 0.3s, color 0.3s;
        }
        
+       
+       .navbar-menu a {
+         color: rgb(23, 53, 99);
+         text-decoration: none;
+         margin: 0 20px;
+         padding: 5px 10px;
+         transition: background-color 0.3s, color 0.3s;
+         margin-right: 120px;
+         
+
+ 
+       }
+       
        .navbar-links a:hover,
        .navbar-menu a:hover {
-         background-color: #ffcc00;
+         background-color: #a8c8ff;
          color: #333;
          border-radius: 5px;
+         padding-left: 30px;
+         padding-right: 30px;
        }
        
        .navbar-actions {
@@ -59,20 +74,22 @@
        .navbar-btn {
          padding: 5px 15px;
          border: none;
-         background-color: #ffcc00;
+         background-color: #94b9f9;
          color: #333;
          border-radius: 5px;
+         margin-right: 20px;
          cursor: pointer;
          transition: background-color 0.3s;
        }
        
        .navbar-btn:hover {
-         background-color: #ffc107;
+         background-color: #60affd;
        }
        
        .bottom-row {
          justify-content: center;
          background-color: rgb(216, 232, 255);
+         
        }
        
        .bottom-row a {
@@ -81,7 +98,7 @@
        
 
        .navbar-logo img {
-         height: 30px;
+         height: 40px;
          width: auto; 
          margin-right: 0px; 
          vertical-align: middle; 

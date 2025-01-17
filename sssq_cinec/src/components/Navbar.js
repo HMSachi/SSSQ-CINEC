@@ -29,6 +29,7 @@ const Navbar = () => {
           <a href="/blog">Blog</a>
           <a href="/events">Events</a>
           <a href="/faq">FAQ</a>
+          
         </div>
       </div>
     </header>
