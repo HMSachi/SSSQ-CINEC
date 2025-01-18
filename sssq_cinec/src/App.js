@@ -5,6 +5,7 @@ import './App.css';
 import Sidebar from './components/Sidebar';
 import Navbar from "./components/Navbar";
 import LoginSignup from "./components/LoginSignup";
+import Login from "./components/Login";
 
 function App() {
   return (
@@ -18,8 +19,12 @@ function App() {
 
    <div className="main-content">
 
-   <Routes>
+          <Routes>
             <Route path="/LoginSignup" element={<LoginSignup/>} />
+          </Routes>
+
+          <Routes>
+            <Route path="/Login" element={<Login/>} />
           </Routes>
         </div>
 

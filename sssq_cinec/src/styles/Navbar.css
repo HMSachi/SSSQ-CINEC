@@ -12,6 +12,22 @@
          font-family: Arial, sans-serif;
          /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
        }
+
+       .nav_heading{
+        
+   
+        height: 20px;
+        margin-left: -570px;
+        font-family: 'Roboto', sans-serif;
+        color: #1d3557; 
+        font-size: 2rem;
+        font-weight: bold;
+        
+        
+        
+        
+        
+       }
        
        .navbar-row {
          display: flex;
@@ -54,9 +70,9 @@
        .navbar-menu a:hover {
          background-color: #a8c8ff;
          color: #333;
-         border-radius: 5px;
+         /*border-radius: 5px;
          padding-left: 30px;
-         padding-right: 30px;
+         padding-right: 30px;*/
        }
        
        .navbar-actions {
