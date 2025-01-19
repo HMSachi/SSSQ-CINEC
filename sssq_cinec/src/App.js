@@ -7,6 +7,10 @@ import Navbar from "./components/Navbar";
 import LoginSignup from "./components/LoginSignup";
 import Login from "./components/Login";
 import Addlecturer from "./components/Addlecturer";
+import Forms from "./components/Forms";
+
+
+
 
 function App() {
   return (
@@ -30,6 +34,10 @@ function App() {
           
           <Routes>
             <Route path="/Addlecturer" element={<Addlecturer/>} />
+          </Routes>
+          <Routes>
+            <Route path="/Forms" element={<Forms/>} />
+          
           </Routes>
         </div>
 

@@ -28,7 +28,7 @@ const Sidebar = () => {
           </Link>
         </li>
         <li>
-          <Link to="/forms">
+          <Link to="/Forms">
             <img src={formsicon} alt="Forms" /> Forms
           </Link>
         </li>
