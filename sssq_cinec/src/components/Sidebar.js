@@ -63,7 +63,7 @@ const Sidebar = () => {
           </Link>
         </li>
         <li>
-          <Link to="/add-lecturer">
+          <Link to="/Addlecturer">
             <img src={addicon} alt="Add-Lecturer" /> Add Lecturer
           </Link>
         </li>

@@ -6,6 +6,7 @@ import Sidebar from './components/Sidebar';
 import Navbar from "./components/Navbar";
 import LoginSignup from "./components/LoginSignup";
 import Login from "./components/Login";
+import Addlecturer from "./components/Addlecturer";
 
 function App() {
   return (
@@ -25,6 +26,10 @@ function App() {
 
           <Routes>
             <Route path="/Login" element={<Login/>} />
+          </Routes>
+          
+          <Routes>
+            <Route path="/Addlecturer" element={<Addlecturer/>} />
           </Routes>
         </div>
 
