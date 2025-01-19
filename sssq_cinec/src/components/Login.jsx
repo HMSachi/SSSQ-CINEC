@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import '../styles/LoginSignup.css';
+import '../styles/Login.css';
 import { Link } from "react-router-dom";
 
-import user_icon from '../components/assets/name.png';
 import email_icon from '../components/assets/email.png';
 import password_icon from '../components/assets/password.png'; 
-import loginimage from '../components/assets/image.webp';
+import signimage from '../components/assets/student.jpg';
 
 const LoginSignup = () => {
   const [formData, setFormData] = useState({ user: '', email: '', password: '' });
@@ -35,23 +34,14 @@ const LoginSignup = () => {
 
 
          
-    <div className='container'>
+    <div className='container1'>
       <div className='header'>
-        <div className="text">CREATE ACCOUNT</div>
-        <div className='heading2'>Sign Up to Manage the Platform </div>
+        <div className="text">LOGIN</div>
+        <div className='heading2'>Login to web with user email and password </div>
         <div className="underline"></div>
       </div>
       <div className="inputs">
-        <div className="input">
-          <img src={user_icon} alt="User Icon" />
-          <input
-            type="text"
-            name="user"
-            placeholder="Enter Your Name"
-            value={formData.user}
-            onChange={handleInputChange}
-          />
-        </div>
+       
 
         <div className="input">
           <img src={email_icon} alt="Email Icon" />
@@ -76,21 +66,23 @@ const LoginSignup = () => {
         </div>
       </div>
 
-      <br/>
+      
 
+      <div className="forgot_password"><span>Lost Password? </span> Click Here!</div><br />
       <div>
-        <button className="signup" onClick={handleSignup}>Sign Up</button>
+        <button className="signup" onClick={handleSignup}>Login</button>
         
-        <Link to="/Login">
-        <div className="forgot_password"><span>Already have an account ?</span> Login</div>
+        <Link to="/LoginSignup">
+        <div className="forgot_password"><span>Do not have an Account ?</span> Sign Up </div>
         </Link>
+       
       </div>
 
      
       
     </div>
- <div className="image" >
- <img src={loginimage} alt="Login Image" />
+ <div className="image1" >
+ <img src={signimage} alt="SignUp Image" />
 </div>
 </div>
 

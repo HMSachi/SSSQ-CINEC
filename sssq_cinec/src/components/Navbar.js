@@ -5,11 +5,13 @@ import cinec_icon from '../components/assets/cinec.png';
 const Navbar = () => {
   return (
     <header className="navbar">
-      {/* First Row */}
+     
       <div className="navbar-row top-row">
+        
         <div className="navbar-logo">
                   <img src={cinec_icon} alt="Cinec" />
         </div>
+
         <div className="navbar-links">
           <a href="/home">Home</a>
           <a href="/about">About</a>
@@ -24,6 +26,9 @@ const Navbar = () => {
 
       {/* Second Row */}
       <div className="navbar-row bottom-row">
+      <div className="nav_heading">
+                  SSSQ
+        </div>
         <div className="navbar-menu">
           <a href="/portfolio">Portfolio</a>
           <a href="/blog">Blog</a>
